@@ -1,6 +1,6 @@
 <template>
   <v-layout>
-    <Header v-if="isAuth" />
+    <Header />
 
     <v-main>
       <router-view />
